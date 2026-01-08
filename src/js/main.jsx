@@ -40,13 +40,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 				<div className="row g-4">
 
 					{cards.map((card) => (
+
 						<div className="col-12 col-sm-6 col-lg-3" key={card.id}>
 							<Card
 								image={card.image}
 								title={card.title}
 								text={card.text}
 								buttonText={card.buttonText}
-							/>
+              />
 						</div>
 					))}
 
